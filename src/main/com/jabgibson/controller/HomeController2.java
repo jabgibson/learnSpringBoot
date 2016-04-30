@@ -1,4 +1,4 @@
-package main.com.jabgibson;
+package main.com.jabgibson.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
-@RequestMapping("/")
-public class HomeController {
+@RequestMapping("/boom")
+public class HomeController2 {
 
     @RequestMapping("/")
     public String getHome() {
-        return "Hello Freaking Dang World 2!";
+        return "Boom to the world";
     }
 }
